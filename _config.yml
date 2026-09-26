@@ -4,16 +4,16 @@
 
 # Site
 title: WXQ's House
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+subtitle: 'Joplin 写作，GitHub Pages 托管'
+description: '个人知识库与技术笔记'
+keywords: Joplin,Hexo,Fluid,笔记
+author: wei xinquan
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://WXQ0824.github.io
 root: /
 permalink: /p/:abbrlink/
 permalink_defaults:
@@ -46,15 +46,9 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  enable: false
 prismjs:
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  enable: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
